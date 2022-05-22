@@ -1,9 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NLog;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TodoApi.Models;
+using TodoApiDTO.BLL.DTO;
+using TodoApiDTO.DAL;
+using TodoApiDTO.DAL.Data;
 
 namespace TodoApi.Controllers
 {
@@ -11,12 +14,14 @@ namespace TodoApi.Controllers
     [ApiController]
     public class TodoItemsController : ControllerBase
     {
-        private readonly TodoContext _context;
+        private readonly TodoContext _context;  
 
         public TodoItemsController(TodoContext context)
         {
             _context = context;
         }
+
+        Logger logger = LogManager.GetCurrentClassLogger();
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItemDTO>>> GetTodoItems()
@@ -33,6 +38,7 @@ namespace TodoApi.Controllers
 
             if (todoItem == null)
             {
+                logger.Error($"Item with id - {id} not found");
                 return NotFound();
             }
 
@@ -44,12 +50,14 @@ namespace TodoApi.Controllers
         {
             if (id != todoItemDTO.Id)
             {
+                logger.Error($"BadRequest when updating item");
                 return BadRequest();
             }
 
             var todoItem = await _context.TodoItems.FindAsync(id);
             if (todoItem == null)
             {
+                logger.Error($"Error updating item. Item {id} Not Found");
                 return NotFound();
             }
 
@@ -62,6 +70,7 @@ namespace TodoApi.Controllers
             }
             catch (DbUpdateConcurrencyException) when (!TodoItemExists(id))
             {
+                logger.Error($"Item Item does't exists");
                 return NotFound();
             }
 
@@ -93,6 +102,7 @@ namespace TodoApi.Controllers
 
             if (todoItem == null)
             {
+                logger.Error($"Error deleting item. Item {id} Not Found");
                 return NotFound();
             }
 
@@ -111,6 +121,6 @@ namespace TodoApi.Controllers
                 Id = todoItem.Id,
                 Name = todoItem.Name,
                 IsComplete = todoItem.IsComplete
-            };       
+            };
     }
 }
