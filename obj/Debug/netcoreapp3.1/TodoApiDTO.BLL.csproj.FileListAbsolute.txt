@@ -1,0 +1,13 @@
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\obj\Debug\netcoreapp3.1\TodoApiDTO.BLL.csproj.AssemblyReference.cache
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\obj\Debug\netcoreapp3.1\TodoApiDTO.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\obj\Debug\netcoreapp3.1\TodoApiDTO.BLL.AssemblyInfoInputs.cache
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\obj\Debug\netcoreapp3.1\TodoApiDTO.BLL.AssemblyInfo.cs
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\obj\Debug\netcoreapp3.1\TodoApiDTO.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\bin\Debug\netcoreapp3.1\TodoApiDTO.BLL.deps.json
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\bin\Debug\netcoreapp3.1\TodoApiDTO.BLL.dll
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\bin\Debug\netcoreapp3.1\TodoApiDTO.BLL.pdb
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\bin\Debug\netcoreapp3.1\TodoApiDTO.DAL.dll
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\bin\Debug\netcoreapp3.1\TodoApiDTO.DAL.pdb
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\obj\Debug\netcoreapp3.1\TodoApiDTO.BLL.csproj.CopyComplete
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\obj\Debug\netcoreapp3.1\TodoApiDTO.BLL.dll
+C:\Users\Alibek\Source\Repos\TodoApiDTO.BLL\obj\Debug\netcoreapp3.1\TodoApiDTO.BLL.pdb
