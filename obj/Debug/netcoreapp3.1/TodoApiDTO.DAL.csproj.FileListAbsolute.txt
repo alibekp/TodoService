@@ -1,0 +1,10 @@
+C:\Users\Alibek\Source\Repos\TodoApiDTO.DAL\obj\Debug\netcoreapp3.1\TodoApiDTO.DAL.csproj.AssemblyReference.cache
+C:\Users\Alibek\Source\Repos\TodoApiDTO.DAL\obj\Debug\netcoreapp3.1\TodoApiDTO.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alibek\Source\Repos\TodoApiDTO.DAL\obj\Debug\netcoreapp3.1\TodoApiDTO.DAL.AssemblyInfoInputs.cache
+C:\Users\Alibek\Source\Repos\TodoApiDTO.DAL\obj\Debug\netcoreapp3.1\TodoApiDTO.DAL.AssemblyInfo.cs
+C:\Users\Alibek\Source\Repos\TodoApiDTO.DAL\obj\Debug\netcoreapp3.1\TodoApiDTO.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Alibek\Source\Repos\TodoApiDTO.DAL\bin\Debug\netcoreapp3.1\TodoApiDTO.DAL.deps.json
+C:\Users\Alibek\Source\Repos\TodoApiDTO.DAL\bin\Debug\netcoreapp3.1\TodoApiDTO.DAL.dll
+C:\Users\Alibek\Source\Repos\TodoApiDTO.DAL\bin\Debug\netcoreapp3.1\TodoApiDTO.DAL.pdb
+C:\Users\Alibek\Source\Repos\TodoApiDTO.DAL\obj\Debug\netcoreapp3.1\TodoApiDTO.DAL.dll
+C:\Users\Alibek\Source\Repos\TodoApiDTO.DAL\obj\Debug\netcoreapp3.1\TodoApiDTO.DAL.pdb
